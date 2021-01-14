@@ -33,6 +33,8 @@ window.addEventListener('load', ()=> {
                 console.log(err);
             });
         });
-    };
+    }else {
+        h1.textContent = "Please activate geolocalisation on your browser for this website to work";
+    }
     
 });
